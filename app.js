@@ -41,11 +41,11 @@ app.use(
     
     connection(mysql,{
         
-        host: 'localhost',
-        user: 'root',
-        password : '',
+        host: 'm1035838test-mysqldbserver.mysql.database.azure.com',
+        user: 'mysqldbuser@m1035838test-mysqldbserver',
+        password : 'Mindtree@123',
         port : 3306, //port mysql
-        database:'nodejs'
+        database:'testdb'
 
     },'pool') //or single
 
